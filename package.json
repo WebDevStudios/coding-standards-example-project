@@ -14,16 +14,18 @@
   "license": "ISC",
   "homepage": "https://bitbucket.org/webdevstudios/wds-cs-example-project#readme",
   "dependencies": {
-    "@webdevstudios/css-coding-standards": "git+ssh://git@github.com/WebDevStudios/css-coding-standards.git"
+    "eslint": "^6.4.0"
   },
   "sasslintConfig": "node_modules/@webdevstudios/css-coding-standards/.sass-lint.yml",
   "stylelint": {
-    "extends": "stylelint-config-wordpress"
+    "extends": "stylelint-config-wordpress",
+    "ignoreFiles": "**/*.scss"
   },
   "devDependencies": {
-    "@webdevstudios/eslint-config-js-coding-standards": "git+ssh://git@github.com/WebDevStudios/js-coding-standards.git#1.0.0-beta1"
+    "@webdevstudios/css-coding-standards": "git+ssh://git@github.com/WebDevStudios/css-coding-standards.git",
+    "@webdevstudios/js-coding-standards": "git+ssh://git@github.com/WebDevStudios/js-coding-standards.git"
   },
   "eslintConfig": {
-      "extends": "@webdevstudios/eslint-config-js-coding-standards"
+    "extends": "@webdevstudios/js-coding-standards"
   }
 }
