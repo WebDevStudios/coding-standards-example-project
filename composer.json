@@ -1,0 +1,18 @@
+{
+    "repositories": [
+      {
+        "type": "composer",
+        "url": "https://packages.wdslab.com"
+      }
+    ],
+    "name": "aubreypwd/wds-cs-example-project",
+    "authors": [
+        {
+            "name": "Aubrey Portwood",
+            "email": "code@aubreypwd.com"
+        }
+    ],
+    "require": {
+        "webdevstudios/php-coding-standards": "1.0.0-beta1"
+    }
+}

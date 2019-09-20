@@ -1,0 +1,29 @@
+{
+  "name": "wds-cs-example-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/webdevstudios/wds-cs-example-project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/webdevstudios/wds-cs-example-project#readme",
+  "dependencies": {
+    "@webdevstudios/css-coding-standards": "git+ssh://git@github.com/WebDevStudios/css-coding-standards.git"
+  },
+  "sasslintConfig": "node_modules/@webdevstudios/css-coding-standards/.sass-lint.yml",
+  "stylelint": {
+    "extends": "stylelint-config-wordpress"
+  },
+  "devDependencies": {
+    "@webdevstudios/eslint-config-js-coding-standards": "git+ssh://git@github.com/WebDevStudios/js-coding-standards.git#1.0.0-beta1"
+  },
+  "eslintConfig": {
+      "extends": "@webdevstudios/eslint-config-js-coding-standards"
+  }
+}
