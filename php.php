@@ -1,3 +1,13 @@
 <?php
 
-What's wrong.
+function badFunctionName() {
+    return;
+}
+
+/**
+ * Missing @since and no @return.
+ *
+ * @return
+ */
+function my_func() {
+}
