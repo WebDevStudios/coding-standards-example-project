@@ -19,8 +19,5 @@
   "devDependencies": {
     "@webdevstudios/css-coding-standards": "git+ssh://git@github.com/WebDevStudios/css-coding-standards.git",
     "@webdevstudios/js-coding-standards": "git+ssh://git@github.com/WebDevStudios/js-coding-standards.git"
-  },
-  "eslintConfig": {
-    "extends": "@webdevstudios/js-coding-standards"
   }
 }
