@@ -17,7 +17,15 @@
     "eslint": "^6.4.0"
   },
   "devDependencies": {
-    "@webdevstudios/css-coding-standards": "git+ssh://git@github.com/WebDevStudios/css-coding-standards.git",
-    "@webdevstudios/js-coding-standards": "git+ssh://git@github.com/WebDevStudios/js-coding-standards.git"
+    "@webdevstudios/css-coding-standards": "~1.0.0",
+    "@webdevstudios/js-coding-standards": "~1.0.1"
+  },
+  "eslintConfig": {
+    "extends": "@webdevstudios/js-coding-standards"
+  },
+  "sasslintConfig": "node_modules/@webdevstudios/css-coding-standards/.sass-lint.yml",
+  "stylelint": {
+    "extends": "stylelint-config-wordpress",
+    "ignoreFiles": "**/*.scss"
   }
 }
