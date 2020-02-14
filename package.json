@@ -16,11 +16,6 @@
   "dependencies": {
     "eslint": "^6.4.0"
   },
-  "sasslintConfig": "node_modules/@webdevstudios/css-coding-standards/.sass-lint.yml",
-  "stylelint": {
-    "extends": "stylelint-config-wordpress",
-    "ignoreFiles": "**/*.scss"
-  },
   "devDependencies": {
     "@webdevstudios/css-coding-standards": "git+ssh://git@github.com/WebDevStudios/css-coding-standards.git",
     "@webdevstudios/js-coding-standards": "git+ssh://git@github.com/WebDevStudios/js-coding-standards.git"
