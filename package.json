@@ -17,8 +17,8 @@
     "eslint": "^6.4.0"
   },
   "devDependencies": {
-    "@webdevstudios/css-coding-standards": "~1.0.0",
-    "@webdevstudios/js-coding-standards": "~1.0.1"
+    "@webdevstudios/css-coding-standards": "~1.0.1",
+    "@webdevstudios/js-coding-standards": "~1.0.2"
   },
   "eslintConfig": {
     "extends": "@webdevstudios/js-coding-standards"
