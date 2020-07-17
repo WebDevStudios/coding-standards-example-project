@@ -17,6 +17,8 @@
         }
     ],
     "require": {
-        "webdevstudios/php-coding-standards": "^1.0"
+    },
+    "require-dev": {
+        "webdevstudios/php-coding-standards": "dev-wpcs/2.1.1@dev"
     }
 }
