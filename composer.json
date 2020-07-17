@@ -1,10 +1,14 @@
 {
-    "repositories": [
-      {
-        "type": "composer",
-        "url": "https://packages.wdslab.com"
-      }
-    ],
+    "repositories": {
+        "0": {
+            "type": "composer",
+            "url": "https://packages.wdslab.com"
+        },
+        "php-coding-standards": {
+            "type": "git",
+            "url": "git@github.com:WebDevStudios/php-coding-standards.git"
+        }
+    },
     "name": "aubreypwd/wds-cs-example-project",
     "authors": [
         {
