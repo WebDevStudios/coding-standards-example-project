@@ -15,3 +15,4 @@ To play, clone the repo and run `npm install && composer install`.
 ## Changelog
 
 - Installed the new `@webdevstudips/js-coding-standards:master` to test prettier support
+- Updated js/css/php-coding standards to the latest
